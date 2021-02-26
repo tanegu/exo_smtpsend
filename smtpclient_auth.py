@@ -5,13 +5,13 @@ from email.message import EmailMessage
 smtp = smtplib.SMTP('smtp.office365.com', 587)  # FQDN とポート番号
 
 # 認証情報の定義
-user = 'tanegu@clapsd2.onmicrosoft.com'  # SMTP サーバに接続するためのユーザ
+user = '.onmicrosoft.com'  # SMTP サーバに接続するためのユーザ
 password = "XXXXXX"
 
 # メッセージの組み立て
 message = EmailMessage()
-message['From'] = 'tanegu@clapsd2.onmicrosoft.com'  # 送信者のメールアドレス
-message['To'] = 'toshiya.tanegu@ntt.com'  # 受信者のメールアドレス
+message['From'] = 'XXX'  # 送信者のメールアドレス
+message['To'] = 'XXX'  # 受信者のメールアドレス
 message['Subject'] = 'SUBJECT'  # 件名
 message.set_content('CONTENT')  # 本文
 
