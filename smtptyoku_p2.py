@@ -1,11 +1,11 @@
-import smtplib
+import smtplibhttps://github.com/tanegu/exo_smtpsend/blob/master/smtptyoku_p2.py
 from email.mime.text import MIMEText
  
 SMTP_SERVER="taneaadc-work.mail.protection.outlook.com"
 SMTP_PORT=25
  
-MAIL_ACCOUNT_SEND="smtp@taneaadc.work"
-MAIL_ACCOUNT_RCPT="test03@taneaadc.work"
+MAIL_ACCOUNT_SEND="****1@taneaadc.work"
+MAIL_ACCOUNT_RCPT="****2@taneaadc.work"
  
 MAIL_SUBJECT="This is Subject"
 MAIL_BODY="This is Body"
