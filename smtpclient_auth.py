@@ -31,4 +31,4 @@ smtp.quit()  # SMTP セッションの終了と TCP コネクションの切断
 
     #Office365からsmtpクライアントを使ってメール送信
     #http://honeotech.hatenablog.com/entry/2018/01/03/023911
-    
+    #test 
